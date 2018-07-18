@@ -1,0 +1,10 @@
+Abstract class is a class which will have abstract methods declaration, the implementation of this method will be in subclasses.
+
+Sample output:
+
+The Investment from US NRI in INR =  350000
+The Interest gained is =  21000.0
+The Investment from Australian NRI in INR =  31800
+The Interest gained is =  1908.0
+The Investment from Europian NRI in INR =  52000
+The Interest gained is =  3120.0
