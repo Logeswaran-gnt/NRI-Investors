@@ -26,22 +26,28 @@ class interestCalculator(ABC):
         pass
 
 class USInvestors(interestCalculator):
+
     def moneyConvertor(self):
         print ("The Interest gained is = ",self.interest*self.USD)
 
 class AUSInvestors(interestCalculator):
+
     def moneyConvertor(self):
         print ("The Interest gained is = ",self.interest*self.AUS)
 
 class EUInvestors(interestCalculator):
+
     def moneyConvertor(self):
         print ("The Interest gained is = ",self.interest*self.EU)
 
+#Check the interest accrued by an US NRI
 us1 = USInvestors(5000) # the value is in US dollar
 us1.moneyConvertor()
 
+#Check the interest accrued by an Australian NRI
 aus1 = AUSInvestors(600) # the value is in Australian dollar
 aus1.moneyConvertor()
 
-eu1 = EUInvestors(800) # the value is in Europian dollar
+#Check the interest accrued by an European NRI
+eu1 = EUInvestors(800) # the value is in European dollar
 eu1.moneyConvertor()
