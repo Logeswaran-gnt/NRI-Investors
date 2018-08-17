@@ -1,4 +1,10 @@
-Abstract class is a class which will have abstract methods declaration, the implementation of this method will be in subclasses.
+It is an simple application of Banking process. 
+The scenario is, Indian bank receiving investments from foreign countries(NRI). 
+Here the foreign investors may not aware of their inverstment's equivalence of INR.
+The Indian banking personnel also aware only the INR and its interest rate.
+Here, this application will be bridge the gap between banking operation and Foreign investments.
+
+Application abstract the money conversion. so the banking personnel no need to worry about the currency type.
 
 Sample output:
 
